@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Anime</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .navbar.sticky-top {
+            margin-inline: 16px;
+            margin-block: 16px;
+            top: -1px;
+            z-index: 1000;
+        }
+
+        .navbar.sticky-top.is-pinned {
+            margin-inline: 0px;
+        }
+
+        .bg-blur {
+            background-color: rgb(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        #videoPlayer {
+            margin-top: 20px;
+        }
+
+        .episode-list {
+            margin-top: 20px;
+        }
+
+        .episode-list-item {
+            margin-bottom: 10px;
+        }
+
+        .episode-list-item a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .episode-list-item a:hover {
+            text-decoration: underline;
+        }
+
+        .player-select {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body data-bs-theme="dark">
+
+    <!-- Navigation -->
+    <nav class="navbar d-flex justify-content-between align-items-center sticky-top bg-blur p-3 rounded">
+        <a class="navbar-brand" href="#">Watch Anime</a>
+        <a class="btn btn-outline-light" href="/">Back to List</a>
+    </nav>
+
+    <div class="container">
+        <h1 id="title"></h1>
+        <p id="description"></p>
+        <p id="categories"></p>
+        <p id="rating"></p>
+
+        <!-- Video Player -->
+        <iframe id="videoPlayer" width="620" height="368" style="border:none;" scrolling="no" allowfullscreen
+            name="v2" allow="encrypted-media"></iframe>
+
+        <!-- Episode List -->
+        <div class="episode-list">
+            <h2>Episodes:</h2>
+            <ul id="episodeList" class="list-group">
+                <!-- Episodes will be added dynamically by JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Get anime ID from URL
+        const id = window.location.pathname.split('/').pop();
+        console.log(id)
+
+        // Fetch anime data from the server
+        fetch("/titles/" + id)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+
+                // Check if anime data was successfully fetched from the server
+                if (data) {
+                    // Display anime data on the page
+                    document.getElementById("title").textContent = data.Title;
+                    document.getElementById("description").textContent = data.Description;
+                    document.getElementById("categories").textContent = `Categories: ${data.Categories}`;
+                    document.getElementById("rating").textContent = `Rating: ${data.Rating.overall}`;
+
+                    // Set the iframe source to the CDA video player link
+                    const videoPlayer = document.getElementById("videoPlayer");
+                    videoPlayer.src = data.src[0].players[0].link;
+
+                    // Display the list of episodes
+                    const episodeList = document.getElementById("episodeList");
+                    data.src.forEach((episode, index) => {
+                        const episodeListItem = document.createElement("li");
+                        episodeListItem.classList.add("list-group-item", "episode-list-item");
+                        const episodeLink = document.createElement("a");
+                        episodeLink.href = episode.players[0].link;
+                        episodeLink.textContent = `Episode ${index + 1}`;
+                        episodeListItem.appendChild(episodeLink);
+
+                        // Check if the link is false but there is an 'embed' field
+                        if (episode.players[0].link === false && episode.players[0].embed) {
+                            const embedData = episode.players[0].embed;
+                            const iframe = document.createElement("iframe");
+                            iframe.width = embedData.width;
+                            iframe.height = embedData.height;
+                            iframe.style = embedData.style;
+                            iframe.scrolling = embedData.scrolling;
+                            iframe.allowfullscreen = embedData.full_screan;
+                            iframe.name = embedData.name;
+                            iframe.allow = embedData.allow;
+                            iframe.src = embedData.src; // Set the iframe src to the 'src' field from 'embedData'
+                            episodeListItem.appendChild(iframe);
+                        } else {
+                            // Create a dropdown list for selecting the player
+                            const playerSelect = document.createElement("select");
+                            playerSelect.classList.add("form-select", "player-select");
+                            episode.players.forEach(player => {
+                                const option = document.createElement("option");
+                                option.value = player.link;
+                                option.innerHTML = `CDA - ${player.quality} Audio: ${player.audioLang} Text: ${player.textLang}`;
+                                playerSelect.appendChild(option);
+                            });
+                            episodeListItem.appendChild(playerSelect);
+
+                            // Create a "Watch" button
+                            const watchButton = document.createElement("button");
+                            watchButton.textContent = "Watch";
+                            watchButton.classList.add("btn", "btn-primary");
+                            watchButton.addEventListener("click", () => {
+                                const selectedPlayer = playerSelect.value;
+                                videoPlayer.src = selectedPlayer; // Set the iframe src to the selected player
+                            });
+                            episodeListItem.appendChild(watchButton);
+                        }
+
+                        episodeList.appendChild(episodeListItem);
+                    });
+                } else {
+                    console.error('No anime data received from the server.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+
+</body>
+
+</html>

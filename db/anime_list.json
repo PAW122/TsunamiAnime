@@ -1,0 +1,689 @@
+{
+    "anime_list": [
+        {
+            "Id": "senko-san-id",
+            "Title": "Sewayaki Kitsune no Senko-san",
+            "Description": "Tytuł skupia się na Nakano - pracowniku wyzyskującej 'czarnej' firmy, który pewnego dnia, po powrocie do domu, zastaje tam lisiego ducha o imieniu Senko. Jak się okazuje, duch mimo wyglądu młodej dziewczyny... ma 800 lat! A jej misją jest łagodzenie ciemności nękającej ludzkość! Tak się zaczyna nowe życie Nakano... pełne tej lisiej dziewczyny wprowadzające do jego życia ciepło i... puszystość!",
+            "Categories": "Komedia, Nadprzyrodzonem Okruchy Życia",
+            "Rodzaje Postaci": ["Loli", "Kemonomimi"],
+            "Pierwowzór": "Web manga",
+            "Img": "https://shinden.pl/res/images/225x350/252358.jpg",
+            "Season": {"y": 2019, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "720p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/336774125"
+                        },
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/15416993e8"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "480p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/33877991f"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 3,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "480p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/15417478e8"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 4,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126704786"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 5,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126705330"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 6,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126695708"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 7,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/112668851e"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 7,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/112668851e"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 8,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/11267044b5"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 9,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126696356"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 10,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126695143"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 11,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126696051"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "episodeNumber": 12,
+                    "players": [
+                        {
+                            "title": "",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1126694895"
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "Id": "Tensei-Shitara-Slime-id",
+            "Title": "Tensei Shitara Slime Datta Ken 3",
+            "Description": "Rimuru oficjalnie stał się Władcą Demonów po pokonaniu Claymana. Po Walpurgii, bankiecie Władców Demonów, domena Rimuru zostaje rozszerzona i obejmuje cały Wielki Las Jury. Przewidując powódź przedstawicieli wszystkich ras, którzy pojawią się, aby złożyć wyrazy szacunku, Rimuru postanawia zorganizować festiwal upamiętniający otwarcie Tempesta, wykorzystując go jako okazję do zdobycia nowych obywateli i zaprezentowania światu Władcy Demonów Rimuru. Tymczasem w Świętym Cesarstwie Lubeliusa, siedzibie nienawidzącego potworów kultu Luminizmu, Kapitan Świętych Rycerzy Hinata otrzymuje wiadomość od Rimuru. Ale wiadomość jest w rzeczywistości sfabrykowanym wypowiedzeniem wojny wysłanym przez jakąś nieznaną stronę. Dowiedziawszy się, że Hinata zmierza do Tempest, Rimuru podejmuje decyzję… W ten sposób rozpoczyna się nowe wyzwanie dla Rimuru, próbującego odróżnić przyjaciela od wroga w dążeniu do idealnego narodu, w którym ludzie i potwory mogą wspólnie prosperować.",
+            "Categories": "Isekai",
+            "Rodzaje Postaci": ["Władca Demonów", "Slime"],
+            "Pierwowzór": "Light novel",
+            "Img": "https://shinden.pl/res/images/225x350/388358.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Demony i strategie",
+                            "data": "2024-04-05",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/197101372d"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "Intencje świętej",
+                            "data": "2024-04-12",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1973540209"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Tensei-Kizoku-id",
+            "Title": "Tensei Kizoku, Kantei Skill de Nariagaru",
+            "Description": "Zwykły najemnik pewnego dnia umiera i odradza się jako Ars Louvent, syn szlachcica. Chociaż nie jest utalentowany w magii ani szermierce, ma jedną umiejętność, której nikt nie posiada - Ocenę. Korzystając z tej umiejętności, Ars może określić obecną siłę danej osoby, jej potencjał i to, czy wykorzystuje swoje talenty. Umiejętność ta jest szczególnie przydatna w obecnej sytuacji kraju. Rząd jest skorumpowany, bunty zdarzają się coraz częściej, a szlachta na całym świecie wzmacnia swoje fortyfikacje, przygotowując się do wojny. Mając to na uwadze, Ars również musi się przygotować, zbierając utalentowanych ludzi. Prześladowany cudzoziemiec, który nie ma sobie równych we władaniu mieczem, niewolnik z nieznanym talentem do magii i nieśmiały chłopiec z niezaspokojonym pragnieniem wiedzy - te cechy pomogą Arsowi stworzyć najpotężniejsze państwo.",
+            "Categories": "Isekai",
+            "Rodzaje Postaci": [],
+            "Pierwowzór": "Light novel",
+            "Img": "https://shinden.pl/res/images/225x350/367174.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Reinkarnacja i moc 'oceny'",
+                            "data": "2024-04-07",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/197282671c"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-14",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/19750357ce"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "The-New-Gate-id",
+            "Title": "The New Gate",
+            "Description": "THE NEW GATE – gra online, która dla swoich graczy stała się walką na śmierć i życie. Dzięki wysiłkom, najpotężniejszego ze wszystkich graczy - Shina, koniec gry i wolność dla wszystkich wydawały się w zasięgu ręki. Jednak zaledwie chwilę po tym, jak Shin pokonał ostatniego bossa w grze, został skąpany w nieznanym świetle i przeniesiony jakieś 500 lat w przyszłość świata gry. Wyrzucony z prostej gry, do dziwnej nowej krainy, młody szermierz o niezrównanej sile ma zamiar wyruszyć w legendarną podróż!",
+            "Categories": "Isekai",
+            "Rodzaje Postaci": [],
+            "Pierwowzór": "Light novel",
+            "Img": "https://shinden.pl/res/images/225x350/375512.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-13",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/19738352f8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Yoru-no-Kurage-wa-Oyogenai-id",
+            "Title": "Yoru no Kurage wa Oyogenai",
+            "Description": "Seria ta podąża za dziewczyną, która spędza noce wędrując po Shibuya, miejscu „przepełnionym tożsamością”. Nie mogąc stać się kimkolwiek, życie dziewczyny zaczyna się zmieniać po wyjątkowym spotkaniu.",
+            "Rodzaje Postaci": [],
+            "Pierwowzór": "Seria oryginalna",
+            "Img": "https://shinden.pl/res/images/225x350/388652.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Jellyfish in the Night",
+                            "data": "2024-04-07",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/19625587ee"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-14",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/1973594702"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Maou-no-Ore-ga-Dorei-Elf-id",
+            "Title": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+            "Description": "Kiedy czarnoksiężnik Zagan postanawia wziąć udział w aukcji, na której sprzedawane są dobra zmarłego już arcydemona Marchozjasza, spodziewa się znaleźć przedmioty o niesamowitej mocy. Zamiast tego znajduje rzadką siwowłosą niewolnicę o imieniu Nephilia i natychmiast wydaje wszystkie swoje pieniądze, aby ją kupić, ku wielkiemu zdumieniu otaczających go osób. Jednak sekretnym powodem inwestycji Zagana było to, że zakochał się w niej od pierwszego wejrzenia. Niestety mężczyzna ma problem: jest nieprzystosowany społecznie i nie ma pojęcia, jak wyrazić swoje prawdziwe uczucia, co prowadzi do wielu nieporozumień między nim a jego nowym towarzyszem. Jednak powoli oboje zaczynają się rozumieć, a miłość zaczyna kwitnąć.",
+            "Rodzaje Postaci": [],
+            "Tagi": ["Ekfy", "pokojówka","wątek romantyczny"],
+            "Studio": "Brain's Base",
+            "Pierwowzór": "",
+            "Img": "https://cdn.ogladajanime.pl/images/anime/18689/250w.webp?20240328235201",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Pierwsza miłość to choroba na którą każdy cierpiał przynajmniej raz",
+                            "data": "2024-04-??",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1975125203"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "Pierwsza miłość przy zaburzeniach komunikacji ma smak spleśniałego chleba",
+                            "data": "2024-04-??",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/19693732c0"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 3,
+                    "players": [
+                        {
+                            "title": "Pierwsza miłość przy zaburzeniach komunikacji ma smak spleśniałego chleba",
+                            "data": "2024-04-??",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1972797289"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Shuumatsu-Train-id",
+            "Title": "Shuumatsu Train Doko e Iku?",
+            "Description": "Akcja rozgrywa się w małym japońskim miasteczku, którego mieszkańców spotkało niezwykłe wydarzenie. Na tym tle główna bohaterka Shizuru Chikura i jej towarzysze przejmują opuszczony pociąg i wyruszają w podróż do świata zewnętrznego w poszukiwaniu najlepszego przyjaciela Shizuru, który w tajemniczy sposób zniknął.",
+            "Rodzaje Postaci": [],
+            "Tagi": [],
+            "Studio": "Emt2, Kadokawa",
+            "Pierwowzór": "",
+            "Img": "https://shinden.pl/res/images/225x350/385052.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-??",
+                            "name": "--",
+                            "quality": "--",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-??",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/1965965239"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Re-Monster-id",
+            "Title": "Re:Monster",
+            "Description": "Tomokui Kanata zmarł przedwcześnie, ale jego przygody jeszcze się nie skończyły. Odrodził się w fantastycznym świecie potworów i magii jako skromny goblin! Ale Kanata, czyli Gob-Rou, jak go teraz nazywają, nie zamierza pozwolić, aby to go powstrzymało. Dzięki połączeniu wspomnień ze swojego starego życia, zupełnie nowemu ciału i potwornemu apetytowi, Gob-Rou prosperuje w nowym świecie, w którym musi pożerać inne stworzenia, aby zdobyć ich moce. Aby przetrwać w tym pełnym akcji fantasy, potrzeba siły, sprytu i silnego żołądka!",
+            "Rodzaje Postaci": [],
+            "Tagi": ["Isekai"],
+            "Studio": "",
+            "Pierwowzór": "",
+            "Img": "https://shinden.pl/res/images/225x350/384772.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Re:Born",
+                            "data": "2024-04-04",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/196437129c"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "Re:D Bear",
+                            "data": "2024-04-11",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/19692147c5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Mushoku-Tensei-II-id",
+            "Title": "Mushoku Tensei II: Isekai Ittara Honki Dasu (2 Cour)",
+            "Description": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2, Mushoku Tensei: Jobless Reincarnation Season 2 Part 2, Mushoku Tensei: Isekai Ittara Honki Dasu 2nd Season Part 2, Mushoku Tensei: Jobless Reincarnation Season 2 Cour 2,",
+            "Rodzaje Postaci": [],
+            "Tagi": ["Isekai"],
+            "Studio": "",
+            "Pierwowzór": "",
+            "Img": "https://shinden.pl/res/images/225x350/377484.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Mój wymarzony dom",
+                            "data": "2024-04-??",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/19670342bc"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "披露宴",
+                            "data": "2024-04-??",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/1975073798"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Kami-wa-Game-id",
+            "Title": "Kami wa Game ni Uete Iru.",
+            "Description": "Cała historia zaczyna się, gdy była bogini, Rhese przebudza się ze snu i deklaruje, że znajdzie wybitnego człowieka, który pokona wyższych bogów w 'Game of the Gods', grze umysłowej, którą bogowie stworzyli pod wpływem nadmiaru wolnego czasu. Rhese nominuje do tego zadania Feja, chłopaka uważanego za najwybitniejszego gracza obecnych czasów. Czy tej dwójce z pomocą swoich przyjaciół uda się pokonać szalone i nierozsądne bóstwa?",
+            "Rodzaje Postaci": [],
+            "Tagi": [],
+            "Studio": "",
+            "Pierwowzór": "",
+            "Img": "https://shinden.pl/res/images/225x350/385025.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Gods' Games We Play",
+                            "data": "2024-04-01",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1961578795"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "Hide-and-God-Seek",
+                            "data": "2024-04-08",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/197347972c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Tensei-shitara-Dainana-id",
+            "Title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+            "Description": "I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability, I Was Reincarnated as the 7th Prince, so I Will Perfect My Magic as I Please,",
+            "Rodzaje Postaci": ["Demony", "Dzieci", "Arystokracja", "Czarodzieje"],
+            "Tagi": ["Isekai", "OP MC"],
+            "Studio": "",
+            "Pierwowzór": "Light novel",
+            "Img": "https://shinden.pl/res/images/225x350/357815.jpg",
+            "Season": {"y": 2024, "m": 4},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "I Reincarnated as the Seventh Prince",
+                            "data": "2024-04-01",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1957136719"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "I Encountered an Adventurer",
+                            "data": "2024-04-08",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1974886226"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 3,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-015",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/1976900252"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

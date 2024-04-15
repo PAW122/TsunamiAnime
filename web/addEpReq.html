@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Episode Request</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- Jeśli chcesz dodać własne style CSS -->
+</head>
+
+<body data-bs-theme="dark">
+
+    <!-- Nawigacja -->
+    <nav class="navbar d-flex justify-content-between align-items-center sticky-top bg-blur p-3 rounded">
+        <a class="navbar-brand" href="#">Add Anime Episode Panel</a>
+        <a class="btn btn-outline-light" href="/">Home</a>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Add Episode Request</h1>
+        <form id="episode-form">
+            <div class="mb-3">
+                <label for="title" class="form-label">Anime Title:</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="episodeNumber" class="form-label">episodeNumber:</label>
+                <input type="text" class="form-control" id="episodeNumber" name="episodeNumber">
+            </div>
+            <div class="mb-3">
+                <label for="episodeTitle" class="form-label">episodeTitle:</label>
+                <input type="text" class="form-control" id="episodeTitle" name="episodeTitle">
+            </div>
+            <div class="mb-3">
+                <label for="episode_relise_date" class="form-label">episode relise date:</label>
+                <input type="text" class="form-control" id="episode_relise_date" name="episode_relise_date">
+            </div>
+            <div class="mb-3">
+                <label for="hosting" class="form-label">hosting (np: CDA):</label>
+                <input type="text" class="form-control" id="hosting" name="hosting">
+            </div>
+            <div class="mb-3">
+                <label for="quality" class="form-label">quality (np: 720p):</label>
+                <input type="text" class="form-control" id="quality" name="quality">
+            </div>
+            <div class="mb-3">
+                <label for="audio_Language" class="form-label">audio Language (np: jp):</label>
+                <input type="text" class="form-control" id="audio_Language" name="audio_Language">
+            </div>
+            <div class="mb-3">
+                <label for="text_Language" class="form-label">text Language (np: pl):</label>
+                <input type="text" class="form-control" id="text_Language" name="text_Language">
+            </div>
+            <div class="mb-3">
+                <label for="Ai_translation" class="form-label">Ai_translation (yes/no):</label>
+                <input type="text" class="form-control" id="Ai_translation" name="Ai_translation">
+            </div>
+            <div class="mb-3">
+                <label for="link/embed" class="form-label">link/embed:</label>
+                <input type="text" class="form-control" id="link/embed" name="link/embed">
+            </div>
+            <div class="mb-3">
+                <label for="translation" class="form-label">translation (np: by ..gropu):</label>
+                <input type="text" class="form-control" id="translation" name="translation">
+            </div>
+            <!-- Dodaj kolejne pola dla danych o odcinku -->
+            <!-- ... -->
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Skrypty -->
+    <script src="/web/src/addEpReq.js"></script> <!-- Ładuj skrypt JavaScript -->
+</body>
+
+</html>
