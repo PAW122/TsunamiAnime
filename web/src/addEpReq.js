@@ -6,27 +6,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Pobierz wartości z pól formularza
         const title = document.getElementById('title').value;
-        const description = document.getElementById('description').value;
-        const tags = document.getElementById('tags').value;
-        const studio = document.getElementById('studio').value;
-        const season = document.getElementById('season').value;
-        const img = document.getElementById('img').value;
-        // Pobierz kolejne wartości z pól formularza
+        const episodeNumber = parseInt(document.getElementById('episodeNumber').value);
+        const episodeTitle = document.getElementById('episodeTitle').value;
+        const episode_relise_date = document.getElementById('episode_relise_date').value;
+        const hosting = document.getElementById('hosting').value;
+        const quality = document.getElementById('quality').value;
+        const audio_Language = document.getElementById('audio_Language').value;
+        const text_Language = document.getElementById('text_Language').value;
+        const Ai_translation = document.getElementById('Ai_translation').checked;
+        const link_embed = document.getElementById('link_embed').value;
+        const translation = document.getElementById('translation').value;
 
         // Przygotuj dane do wysłania na serwer
         const requestData = {
             title: title,
-            description: description,
-            tags: tags,
-            studio: studio,
-            season: season,
-            img: img,
-            // Dodaj kolejne dane o odcinku
-            // ...
+            episodeNumber: episodeNumber,
+            episodeTitle: episodeTitle,
+            episode_relise_date: episode_relise_date,
+            hosting: hosting,
+            quality: quality,
+            audio_Language: audio_Language,
+            text_Language: text_Language,
+            Ai_translation: Ai_translation,
+            link_embed: link_embed,
+            translation: translation
         };
 
+        console.log(requestData)
+
         // Wyślij żądanie POST na serwer z danymi formularza
-        fetch('/submit_episode_request', {
+        fetch('http://localhost:8080/submit_episode_request', { // Zmień na właściwy adres URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -34,9 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
             body: JSON.stringify(requestData),
         })
         .then(response => {
-            if (response.ok) {
-                return response.json();
-            } else {
+            if (!response.ok) {
                 throw new Error('Error during submission');
             }
         })

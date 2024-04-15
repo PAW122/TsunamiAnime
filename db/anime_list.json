@@ -621,6 +621,21 @@
                             "link": "https://ebd.cda.pl/620x368/197347972c"
                         }
                     ]
+                },
+                {
+                    "episodeNumber": 3,
+                    "players": [
+                        {
+                            "title": "",
+                            "data": "2024-04-15",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/1976629778"
+                        }
+                    ]
                 }
             ]
         },
@@ -680,6 +695,247 @@
                             "textLang": "pl",
                             "Ai_translation": true,
                             "link": "https://ebd.cda.pl/620x368/1976900252"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": "Tsuki-ga-Michibiku-2-id",
+            "Title": "Tsuki ga Michibiku Isekai Douchuu Dai 2 Maku",
+            "Description": "TSUKIMICHI -Moonlit Fantasy- Season 2, Tsuki ga Michibiku Isekai Douchuu 2nd Season,",
+            "Rodzaje Postaci": [],
+            "Tagi": ["Isekai", "OP MC"],
+            "Studio": "",
+            "Pierwowzór": "Light novel",
+            "Img": "https://shinden.pl/res/images/225x350/369643.jpg",
+            "Season": {"y": 2024, "m": 1},
+            "Rating": {
+                "overall": "N/A"
+            },
+            "src": [
+                {
+                    "episodeNumber": 1,
+                    "players": [
+                        {
+                            "title": "Co? Księżyc nad zrujnowanym zamkiem?",
+                            "data": "2024-01-08",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/18000367e6"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 2,
+                    "players": [
+                        {
+                            "title": "Bohaterowie są parą piękności",
+                            "data": "2024-01-15",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/181539529c"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 3,
+                    "players": [
+                        {
+                            "title": "Gwiezdne wojny",
+                            "data": "2024-01-22",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/18284642bd"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 4,
+                    "players": [
+                        {
+                            "title": "Dlaczego zostałem nauczycielem?!",
+                            "data": "2024-01-29",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/188084127c"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 5,
+                    "players": [
+                        {
+                            "title": "Teraz rozpocznie się lekcja",
+                            "data": "2024-02-05",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/188083778f"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 6,
+                    "players": [
+                        {
+                            "title": "Stać się szefem kuchni z trzema gwiazdkami",
+                            "data": "2024-02-12",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/188084073b"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 7,
+                    "players": [
+                        {
+                            "title": "Przesłuchanie kandydatów",
+                            "data": "2024-02-1",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1880841767"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 8,
+                    "players": [
+                        {
+                            "title": "Sławne, piękne siostry",
+                            "data": "2024-02-26",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/189032126a"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 9,
+                    "players": [
+                        {
+                            "title": "Zboczony smok",
+                            "data": "2024-03-04",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/18991157e3"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 10,
+                    "players": [
+                        {
+                            "title": "Obserwuj, jak udoskonalam świat",
+                            "data": "2024-03-11",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1912182755"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 11,
+                    "players": [
+                        {
+                            "title": "Lato pełne rozwoju i nowych umiejętności",
+                            "data": "2024-03-18",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/1934645214"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 12,
+                    "players": [
+                        {
+                            "title": "Atak gigantycznych potworów",
+                            "data": "2024-03-25",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/195682923e"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 13,
+                    "players": [
+                        {
+                            "title": "Bardzo oblegany festiwal akademicki",
+                            "data": "2024-04-01",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/19589892cc"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 14,
+                    "players": [
+                        {
+                            "title": "Nie przepadam za wyższymi sferami",
+                            "data": "2024-04-08",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": false,
+                            "link": "https://ebd.cda.pl/620x368/19745662ca"
+                        }
+                    ]
+                },
+                {
+                    "episodeNumber": 15,
+                    "players": [
+                        {
+                            "title": "Zaciekły turniej",
+                            "data": "2024-04-15",
+                            "name": "CDA",
+                            "quality": "1080p",
+                            "audioLang": "jp",
+                            "textLang": "pl",
+                            "Ai_translation": true,
+                            "link": "https://ebd.cda.pl/620x368/1976759714"
                         }
                     ]
                 }

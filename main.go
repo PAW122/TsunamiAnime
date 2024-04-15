@@ -1,6 +1,8 @@
 package main
 
 import (
+	"TsunamiSteram/modules"
+	"TsunamiSteram/types"
 	"bytes"
 	"encoding/json"
 	"fmt"
@@ -42,6 +44,8 @@ type AnimeList struct {
 	AnimeList []AnimeTitle `json:"anime_list"`
 }
 
+// todo: sprawdzanie typów, wyświetlanie error message na stronie
+
 func main() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
@@ -50,6 +54,38 @@ func main() {
 
 	http.HandleFunc("/addEpisodeRequest", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, "./web/addEpReq.html")
+	})
+
+	http.HandleFunc("/episodes_request_page", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "./web/Ep_requests_Page.html")
+	})
+
+	http.HandleFunc("/loadEpisodeRequests", loadEpisodeRequestsHandler)
+
+	http.HandleFunc("/submit_episode_request", func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodPost {
+			http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+			return
+		}
+
+		var episode types.Submit_episode_request
+		err := json.NewDecoder(r.Body).Decode(&episode)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusBadRequest)
+			return
+		}
+
+		// Tutaj umieść kod do zapisu `episode` do bazy danych
+		// Przykładowo:
+		err = modules.SaveToDatabase(episode)
+		if err != nil {
+			http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+			return
+		}
+
+		// Zapisano pomyślnie
+		w.WriteHeader(http.StatusOK)
+		w.Write([]byte("Episode request submitted successfully"))
 	})
 
 	// Endpoint do wczytywania listy tytułów anime
@@ -171,8 +207,24 @@ func main() {
 
 	// Uruchomienie serwera na porcie 8080
 	fmt.Println("Serwer uruchomiony na http://localhost:8080")
+	fmt.Println("Endpoint: http://localhost:8080/episodes_request_page")
+	fmt.Println("Endpoint: http://localhost:8080/addEpisodeRequest")
+
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
 		fmt.Println("Błąd podczas uruchamiania serwera:", err)
 	}
+}
+
+func loadEpisodeRequestsHandler(w http.ResponseWriter, r *http.Request) {
+	// Odczytaj dane z bazy danych
+	episodeRequests, err := modules.ReadFromDatabase()
+	if err != nil {
+		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+		return
+	}
+
+	// Zamień dane na JSON i zwróć jako odpowiedź
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(episodeRequests)
 }
